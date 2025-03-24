@@ -1,0 +1,52 @@
+.home-container {
+    padding: 40px 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .home-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .home-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .home-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .button {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+  }
+  
+  .login-link-container {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .login-link {
+    color: #6c25ff;
+    text-decoration: none;
+    font-weight: 600;
+  }

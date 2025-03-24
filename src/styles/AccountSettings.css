@@ -1,0 +1,124 @@
+/* AccountSettings.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.account-container {
+  background-color: white;
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.account-header {
+  padding: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.account-header h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+}
+
+.user-profile {
+  padding: 20px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-image-container {
+  position: relative;
+  margin-right: 15px;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.camera-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #8a56ac;
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.user-details h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.user-details .email {
+  font-size: 14px;
+  color: #666;
+}
+
+.profile-description {
+  margin-top: 15px;
+}
+
+.profile-description p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.section-divider {
+  border-top: 1px dashed #e0e0e0;
+  margin: 0;
+}
+
+.empty-section {
+  min-height: 200px;
+  /* Empty section as shown in design */
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.navigation a {
+  color: #888;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.page-indicator {
+  color: #888;
+  font-size: 14px;
+}
